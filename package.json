@@ -1,0 +1,19 @@
+{
+  "name": "connected-devices-runner",
+  "version": "0.1.0",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "description": "Runs connected devices generator periodically and outputs mapping to file",
+  "contributors": [
+    {
+      "name": "Alistair Brown",
+      "email": "github@alistairjcbrown.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-jshint": "~1.5.0",
+    "jshint-stylish": "~0.1.5"
+  },
+  "license": "MIT"
+}

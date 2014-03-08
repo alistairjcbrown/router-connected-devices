@@ -1,0 +1,22 @@
+{
+  "name": "connected-devices",
+  "version": "0.1.0",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "description": "Pulls connected devices from router web interface",
+  "contributors": [
+    {
+      "name": "Alistair Brown",
+      "email": "github@alistairjcbrown.com"
+    }
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/alistairjcbrown/npm.git"
+  },
+  "dependencies" : {
+    "node-phantom": "https://github.com/alistairjcbrown/node-phantom/tarball/onnavigationrequested-support",
+    "q": "1.0.x",
+    "underscore": "1.6.x"
+  },
+  "license": "MIT"
+}
