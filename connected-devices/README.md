@@ -63,7 +63,7 @@ Once support for `onNavigationRequested` is in the master branch of the main rep
 
 ## Advanced
 
-In an effort to make this script extensible for use with other routers, router URLs, authentication data, element selectors and scripts which are run on the pages have all been moved to the (config file)[config.js] file.
+In an effort to make this script extensible for use with other routers, router URLs, authentication data, element selectors and scripts which are run on the pages have all been moved to the [config file](config.js) file.
 
 The functionality to open a page should take card of detecting redirections and delaying until their have loaded.
 
