@@ -60,7 +60,7 @@ You can also change:
  * output interval - `config.output.interval`
  * output path - `config.output.path`
 
-### Call the module
+#### Call the module
 
 You can now call this module from the directory the repository was clone in.
 
