@@ -1,19 +1,31 @@
 {
   "name": "connected-devices-runner",
-  "version": "0.1.0",
-  "author": "Alistair Brown <github@alistairjcbrown.com>",
   "description": "Runs connected devices generator periodically and outputs mapping to file",
-  "contributors": [
-    {
-      "name": "Alistair Brown",
-      "email": "github@alistairjcbrown.com"
-    }
-  ],
-  "dependencies": {},
+  "version": "0.1.1",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "contributors": [],
+  "bugs": "https://github.com/alistairjcbrown/router-connected-devices/issues",
+  "dependencies": {
+    "gulp": "~3.6.0",
+    "jshint-stylish": "~0.1.5"
+  },
   "devDependencies": {
     "gulp": "~3.5.5",
     "gulp-jshint": "~1.5.0",
-    "jshint-stylish": "~0.1.5"
+    "jshint-stylish": "~0.1.5",
+    "gulp-jsvalidate": "~0.1.1"
   },
-  "license": "MIT"
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/alistairjcbrown/router-connected-devices",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alistairjcbrown/router-connected-devices.git"
+  },
+  "scripts": {
+    "postinstall": "cd connected-devices; npm install"
+  }
 }

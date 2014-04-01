@@ -30,27 +30,52 @@ Install:
 
 ### Getting started
 
- * Clone the repository
-  `git clone git@github.com:alistairjcbrown/router-connected-devices.git`
+#### Clone the repository
 
- * Intall dependencies
-   * `cd router-connected-devices`
-   * `npm install`
-   * `cd connected-devices`
-   * `npm install`
+```
+git clone git@github.com:alistairjcbrown/router-connected-devices.git
+```
 
- * Change the interval and the output path in the config at
-   * `router-connected-devices/connected-devices/config.js`
+#### Intall dependencies
 
- * You can now call this module from the top level, eg.
-   * `node router-connected-devices`
+```
+cd router-connected-devices
+npm install
+```
+
+#### Modify the config
+
+```
+vi router-connected-devices/connected-devices/config.js
+```
+
+You will need to change:
+
+ * router host - `config.router.host`
+ * router username - `config.router.username`
+ * router password - `config.router.password`
+
+You can also change:
+
+ * output interval - `config.output.interval`
+ * output path - `config.output.path`
+
+### Call the module
+
+You can now call this module from the directory the repository was clone in.
+
+```
+node router-connected-devices
+```
 
 #### Extra
 
 Use `forever` [[link](https://www.npmjs.org/package/forever)] to keep process going even if it crashes.
 
- * Install: `npm install -g forever`
- * `forever router-connected-devices`
+```
+npm install -g forever            # Install forever
+forever router-connected-devices  # Run module under forever
+```
 
 ## Output Format
 

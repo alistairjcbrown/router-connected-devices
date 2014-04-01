@@ -396,7 +396,7 @@ ConnectedDevices = function(dependencies) {
         _.each(element_fragments, function(element_fragment) {
             var device_object = this._createDeviceObject(element_fragment, type);
             device_objects.push(device_object);
-        }, this)
+        }, this);
 
         return device_objects;
     };

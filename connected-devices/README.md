@@ -27,7 +27,7 @@ Once support for `onNavigationRequested` is in the master branch of the main rep
 
  * `generateMapping` - Creates a mapping of connected state to list of devices. Takes a callback and provides connected device mapping in parameters.
 
- * `destroy` - Tears down the module and PhantomJS instance.
+ * `destroy` - Tears down the module and ends the PhantomJS instance.
 
 
 ## Output Format
@@ -65,9 +65,11 @@ Once support for `onNavigationRequested` is in the master branch of the main rep
 
 In an effort to make this script extensible for use with other routers, router URLs, authentication data, element selectors and scripts which are run on the pages have all been moved to the [config file](config.js) file.
 
-The functionality to open a page should take card of detecting redirections and delaying until their have loaded.
+The current functionality to open a page should take card of detecting redirections and delaying until they have loaded.
 
-However, the `_createDeviceObject` may need generalised to deal with different formats of element data and conversion of this data into a standard device object.
+However, the `_createDeviceObject` function may need generalised to deal with different formats of element data and conversion of this data into a standard device object.
+
+Feel free to send me a pull request if you get it working on another router and want your changes push upstream.
 
 
 ## Contact

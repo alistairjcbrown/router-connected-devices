@@ -1,22 +1,24 @@
 {
   "name": "connected-devices",
-  "version": "0.1.0",
-  "author": "Alistair Brown <github@alistairjcbrown.com>",
   "description": "Pulls connected devices from router web interface",
-  "contributors": [
-    {
-      "name": "Alistair Brown",
-      "email": "github@alistairjcbrown.com"
-    }
-  ],
-  "repository": {
-    "type" : "git",
-    "url" : "http://github.com/alistairjcbrown/npm.git"
-  },
-  "dependencies" : {
+  "version": "0.1.1",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "contributors": [],
+  "bugs": "https://github.com/alistairjcbrown/router-connected-devices/issues",
+  "dependencies": {
     "node-phantom": "https://github.com/alistairjcbrown/node-phantom/tarball/onnavigationrequested-support",
-    "q": "1.0.x",
-    "underscore": "1.6.x"
+    "q": "~1.0.1",
+    "underscore": "~1.6.0"
   },
-  "license": "MIT"
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/alistairjcbrown/router-connected-devices/connected-devices",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alistairjcbrown/router-connected-devices.git"
+  }
 }
